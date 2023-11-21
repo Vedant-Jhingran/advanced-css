@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+    <style>
+        .box {
+            width: 300px;
+            background-image: linear-gradient(to right, cornflowerblue, blue);
+            border: 2px solid black;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            margin: 100px auto;
+            padding: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .created {
+            color: white;
+            align-self: center;
+        }
+
+        .button {
+            padding: 10px;
+            background-image: linear-gradient(to right, aquamarine, green);
+            border-radius: 5px;
+            font-weight: bolder;
+            margin-top: 10px;
+        }
+
+        .one {
+            font-size: 26px;
+            font-weight: bolder;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .box:hover {
+            transform: rotate(-45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="top">
+            <p class="one">#01</p>
+            <p class="created">Created On: 18/11/2023</p>
+        </div>
+        <div>
+            <h3>Important Dates</h3>
+            <ul>
+                <li>January 26 - Republic Day</li>
+                <li>August 15 - Independence Day</li>
+                <li>October 2 - Gandhi Jayanti</li>
+                <li>August 29 - National Sports Day</li>
+            </ul>
+        </div>
+        <button class="button">Mark As Done</button>
+    </div>
+</body>
+</html>
